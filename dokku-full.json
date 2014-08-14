@@ -385,7 +385,7 @@
       "displaycommand": true,
       "playprompt": true,
       "clearscreen": false,
-      "customprompt": "\u001b[31mroot@dokkudev:/home/dokku$ \u001b[0m",
+      "customprompt": "\u001b[1;32mroot@dokkudev\u001b[0m:\u001b[1;34m/home/dokku$ \u001b[0m",
       "stdin": "cat .ssh/authorized_keys",
       "stdout": "command=\"FINGERPRINT=87:d4:b6:76:f8:1f:40:07:d7:80:54:44:fd:68:61:9f NAME=deploy `cat /home/dokku/.sshcommand` $SSH_ORIGINAL_COMMAND\",no-agent-forwarding,no-user-rc,no-X11-forwarding,no-port-forwarding ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDD3HPvDnOu97rL7WR3B49Kjy8PViBLddpN1J9PdCajQBObhwG1xjXvo//r31Oq25oOtKAjXtQ8tH6a8NJfLwWkfdmncBBJAPGtWsJXmLzoSt3Oxn91I7j1fLeVxFI8JmF2QcrJkpYE4rytV6r/onLe2DeVcvbJ6MZa+b6uE4u8QHnOckH89gJkWgIBt3MuvhGHrWK23wyJpV7GirxC8KxuG4hTO0hqVKnaOa9pwN6W4ntWwf5bqiuXfbvZGZdTlotE8C0hYINmUJrWzRtNKpycc1y3294cz1aJs2d1/+LWJTEvpv4l92jl1TPBtZnCRisOibFPOj0NA1YzlM/N4iON mose@momac",
       "stderr": "",
