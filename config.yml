@@ -1,0 +1,4 @@
+---
+editor: vim
+prompt: "\n\e[30;45m dokku \e[35;40m\e[0m "
+timeformat: "%.1f"

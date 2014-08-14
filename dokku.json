@@ -1,0 +1,336 @@
+{
+  "title": "Dokku",
+  "sequence": [
+    {
+      "displaycommand": false,
+      "playprompt": false,
+      "clearscreen": true,
+      "customprompt": null,
+      "stdin": "Hello",
+      "stdout": " \n \n  \u001b[1;32mHello\u001b[0m\n \n  - I'm mose, SysAdmin at \u001b[1;34mFaria Systems\u001b[0m\n \n  - \u001b[1;34mDevops\u001b[0m duties\n    = helping developers to (ab)use the infrastructure\n \n  - 4 SaaS apps in production, 5 more apps in development\n    all \u001b[1;33mruby on rails\u001b[0m based applications,\n    and hopefully some \u001b[1;33mnode.js\u001b[0m and \u001b[1;33mgo\u001b[0m for new apps\n \n ",
+      "stderr": "",
+      "timespent": 0
+    },
+    {
+      "displaycommand": false,
+      "playprompt": false,
+      "clearscreen": true,
+      "customprompt": null,
+      "stdin": "Docker",
+      "stdout": " \n \n  \u001b[1;32mDocker\u001b[0m\n \n  - \u001b[4mhttps://www.docker.com\u001b[0m\n \n  - High level API for managing containers\n    Written in \u001b[1;33mGo\u001b[0m\n \n  - Created by \u001b[1;33mDotCloud\u001b[0m, a PaaS company\n  \n      \u001b[33mmarch 2013\u001b[0m - First open source release\n      \u001b[33mjune 2014\u001b[0m  - First stable release\n \n ",
+      "stderr": "",
+      "timespent": 0
+    },
+    {
+      "displaycommand": false,
+      "playprompt": false,
+      "clearscreen": true,
+      "customprompt": null,
+      "stdin": "Docker Containers",
+      "stdout": " \n \n  \u001b[1;32mDocker Containers\u001b[0m\n \n  - similar to BSD jail\n  - run processes in isolation\n  - protects the host OS\n  - no supervisor\n  - each container has an IP\n  - created from an incremental image\n \n    \u001b[4mhttps://docker.com/whatisdocker\u001b[0m\n ",
+      "stderr": "",
+      "timespent": 0
+    },
+    {
+      "displaycommand": false,
+      "playprompt": false,
+      "clearscreen": true,
+      "customprompt": null,
+      "stdin": "Docker Ecosystem",
+      "stdout": " \n \n  \u001b[1;32mDocker Ecosystem\u001b[0m\n \n  - Docker is very popular in coders community\n    very active contributions in open source\n \n  - official and community images\n    \u001b[4mhttps://registry.hub.docker.com/\u001b[0m\n \n  - a lot of solutions developed on the top of docker\n    11 209 matches for 'docker' on github\n    \u001b[4mhttps://github.com/search?q=docker\u001b[0m\n \n ",
+      "stderr": "",
+      "timespent": 0
+    },
+    {
+      "displaycommand": false,
+      "playprompt": false,
+      "clearscreen": true,
+      "customprompt": null,
+      "stdin": "Docker for Self-Hosted PaaS",
+      "stdout": " \n \n  \u001b[1;32mDocker for Self-Hosted PaaS\u001b[0m\n \n  - check full details on\n    \u001b[4mhttps://paas-tw.hackpad.com/aVcT24Fly7x\u001b[0m\n \n    \u001b[33mPanamax\u001b[0m ...... \u001b[4mhttp://panamax.io\u001b[0m\n    \u001b[33mFlynn\u001b[0m ........ \u001b[4mhttps://flynn.io\u001b[0m\n    \u001b[33mDeis\u001b[0m ......... \u001b[4mhttp://deis.io\u001b[0m\n    \u001b[33mDokku\u001b[0m ........ \u001b[4mhttps://github.com/progrium/dokku\u001b[0m\n    \u001b[33mTsuru\u001b[0m ........ \u001b[4mhttp://www.tsuru.io\u001b[0m\n    \u001b[33mDawn\u001b[0m ......... \u001b[4mhttps://github.com/dawn/dawn\u001b[0m\n    \u001b[33mOctohost\u001b[0m ..... \u001b[4mhttp://www.octohost.io\u001b[0m\n \n ",
+      "stderr": "",
+      "timespent": 0
+    },
+    {
+      "displaycommand": false,
+      "playprompt": false,
+      "clearscreen": true,
+      "customprompt": null,
+      "stdin": "Dokku = Docker + Heroku",
+      "stdout": " \n \n  \u001b[1;32mDokku = Docker + Heroku\u001b[0m\n \n  - Docker-powered mini-Heroku in around 100 lines of Bash\n \n  - smart combination of\n    - \u001b[1;33mgit\u001b[0m (custom server, with deployment hook)\n    - \u001b[1;33mdocker\u001b[0m (building in containers)\n    - \u001b[1;33mbuildstep\u001b[0m (provisionning the stack)\n    - \u001b[1;33msshcommand\u001b[0m (user api for non-privileged operations)\n    - \u001b[1;33mpluginhook\u001b[0m (for dokku plugins)\n    - \u001b[1;33mnginx\u001b[0m (proxy for vhosts management)\n \n  - easy one-line install on any linux host\n  \n  - various extensions for extending the dokku server\n    \u001b[4mhttps://github.com/progrium/dokku/wiki/Plugins\u001b[0m\n \n ",
+      "stderr": "",
+      "timespent": 0
+    },
+    {
+      "displaycommand": false,
+      "playprompt": false,
+      "clearscreen": true,
+      "customprompt": null,
+      "stdin": "Recorded live demo",
+      "stdout": " \n \n  \u001b[1;32mRecorded live demo\u001b[0m\n \n  - not so live, it's a recording\n \n ",
+      "stderr": "",
+      "timespent": 0
+    },
+    {
+      "displaycommand": false,
+      "playprompt": false,
+      "clearscreen": true,
+      "customprompt": null,
+      "stdin": "",
+      "stdout": "First we need a server, let's create one ...",
+      "stderr": "",
+      "timespent": 0
+    },
+    {
+      "displaycommand": true,
+      "playprompt": true,
+      "clearscreen": true,
+      "customprompt": null,
+      "stdin": "tugboat",
+      "stdout": "Commands:\n  tugboat add-key NAME                                 # Upload an ssh public key.\n  tugboat authorize                                    # Authorize a DigitalOcean account with tugboat\n  tugboat create NAME                                  # Create a droplet.\n  tugboat destroy FUZZY_NAME                           # Destroy a droplet\n  tugboat destroy_image FUZZY_NAME                     # Destroy an image\n  tugboat droplets                                     # Retrieve a list of your droplets\n  tugboat halt FUZZY_NAME                              # Shutdown a droplet\n  tugboat help [COMMAND]                               # Describe commands or a specific command\n  tugboat images                                       # Retrieve a list of your images\n  tugboat info FUZZY_NAME [OPTIONS]                    # Show a droplet's information\n  tugboat info_image FUZZY_NAME [OPTIONS]              # Show an image's information\n  tugboat keys                                         # Show available SSH keys\n  tugboat password-reset FUZZY_NAME                    # Reset root password\n  tugboat rebuild FUZZY_NAME IMAGE_NAME                # Rebuild a droplet.\n  tugboat regions                                      # Show regions\n  tugboat resize FUZZY_NAME -s, --size=N               # Resize a droplet\n  tugboat restart FUZZY_NAME                           # Restart a droplet\n  tugboat sizes                                        # Show available droplet sizes\n  tugboat snapshot SNAPSHOT_NAME FUZZY_NAME [OPTIONS]  # Queue a snapshot of the droplet.\n  tugboat ssh FUZZY_NAME                               # SSH into a droplet\n  tugboat start FUZZY_NAME                             # Start a droplet\n  tugboat verify                                       # Check your DigitalOcean credentials\n  tugboat version                                      # Show version\n  tugboat wait FUZZY_NAME                              # Wait for a droplet to reach a state\n\nOptions:\n  -q, [--quiet]  \n\nTo learn more or to contribute, please see github.com/pearkes/tugboat",
+      "stderr": "",
+      "timespent": 0.13608
+    },
+    {
+      "displaycommand": true,
+      "playprompt": true,
+      "clearscreen": false,
+      "customprompt": null,
+      "stdin": "tugboat images -g | grep -i ubuntu",
+      "stdout": "bootstrapped base (id: 1907083, distro: Ubuntu)\nkbsa-20130123 (id: 1983361, distro: Ubuntu)\nisis-sandbox (id: 2274214, distro: Ubuntu)\neva-small-image (id: 4517074, distro: Ubuntu)\nisis-multistage (id: 4520789, distro: Ubuntu)\npo-dev-20140801 (id: 5381535, distro: Ubuntu)\n20140805-oast (id: 5495107, distro: Ubuntu)\nUbuntu 14.04 x64 (id: 5141286, distro: Ubuntu)\nUbuntu 14.04 x32 (id: 5142677, distro: Ubuntu)\nUbuntu 10.04 x32 (id: 5566684, distro: Ubuntu)\nUbuntu 10.04 x64 (id: 5566812, distro: Ubuntu)\nUbuntu 12.04.5 x64 (id: 5588928, distro: Ubuntu)\nUbuntu 12.04.5 x32 (id: 5588929, distro: Ubuntu)\nGhost 0.4.2 on Ubuntu 12.04 (id: 3121555, distro: Ubuntu)\nRuby on Rails on Ubuntu 14.04 (Nginx + Unicorn) (id: 4261622, distro: Ubuntu)\nnode-v0.10.30 on Ubuntu 14.04 (id: 5505824, distro: Ubuntu)\nDjango on Ubuntu 14.04 (id: 5505940, distro: Ubuntu)\nLAMP on Ubuntu 14.04 (id: 5506000, distro: Ubuntu)\nLEMP on Ubuntu 14.04 (id: 5506010, distro: Ubuntu)\nDocker 1.1.2 on Ubuntu 14.04 (id: 5506141, distro: Ubuntu)\nMEAN on Ubuntu 14.04 (id: 5507160, distro: Ubuntu)\nDokku v0.2.3 on Ubuntu 14.04 (w/ Docker 1.1.2) (id: 5529453, distro: Ubuntu)\nGitLab 7.1.1 CE (id: 5530248, distro: Ubuntu)\nRedmine on Ubuntu 14.04 (id: 4869208, distro: Ubuntu)\nWordPress on Ubuntu 14.04 (id: 4991187, distro: Ubuntu)",
+      "stderr": "",
+      "timespent": 4.523117
+    },
+    {
+      "displaycommand": true,
+      "playprompt": true,
+      "clearscreen": false,
+      "customprompt": null,
+      "stdin": "tugboat create dokkudev -i 5588928",
+      "stdout": "Queueing creation of droplet 'dokkudev'...done",
+      "stderr": "",
+      "timespent": 2.811693
+    },
+    {
+      "displaycommand": true,
+      "playprompt": true,
+      "clearscreen": false,
+      "customprompt": null,
+      "stdin": "tugboat wait dokkudev",
+      "stdout": "Droplet fuzzy name provided. Finding droplet ID...done\u001b[0m, 2322346 (dokkudev)\nWaiting for droplet to become active........done\u001b[0m (23s)",
+      "stderr": "",
+      "timespent": 26.313571
+    },
+    {
+      "displaycommand": true,
+      "playprompt": true,
+      "clearscreen": false,
+      "customprompt": null,
+      "stdin": "tugboat info dokkudev",
+      "stdout": "Droplet fuzzy name provided. Finding droplet ID...done\u001b[0m, 2322346 (dokkudev)\n\nName:             dokkudev\nID:               2322346\nStatus:           \u001b[32mactive\u001b[0m\nIP:               128.199.185.101\nRegion ID:        6\nImage ID:         5588928\nSize ID:          66\nBackups Active:   false",
+      "stderr": "",
+      "timespent": 3.201087
+    },
+    {
+      "displaycommand": false,
+      "playprompt": false,
+      "clearscreen": true,
+      "customprompt": null,
+      "stdin": "",
+      "stdout": "Let's go install Dokku on the server, now ...",
+      "stderr": "",
+      "timespent": 0
+    },
+    {
+      "displaycommand": true,
+      "playprompt": true,
+      "clearscreen": false,
+      "customprompt": null,
+      "stdin": "cat ~/.ssh/id_rsa.pub | ssh root@dokku.mose.com \"sshcommand acl-add dokku deploy\"",
+      "stdout": "87:d4:b6:76:f8:1f:40:07:d7:80:54:44:fd:68:61:9f",
+      "stderr": "",
+      "timespent": 2.728949
+    },
+    {
+      "displaycommand": true,
+      "playprompt": false,
+      "clearscreen": false,
+      "customprompt": null,
+      "stdin": "echo \"address=/dokku.mose.com/128.199.185.101\" >> /usr/local/etc/dnsmasq.conf",
+      "stdout": "",
+      "stderr": "",
+      "timespent": 0
+    },
+    {
+      "displaycommand": true,
+      "playprompt": false,
+      "clearscreen": false,
+      "customprompt": null,
+      "stdin": "sudo launchctl stop homebrew.mxcl.dnsmasq",
+      "stdout": "",
+      "stderr": "",
+      "timespent": 0.043776
+    },
+    {
+      "displaycommand": true,
+      "playprompt": false,
+      "clearscreen": false,
+      "customprompt": null,
+      "stdin": "sudo launchctl start homebrew.mxcl.dnsmasq",
+      "stdout": "",
+      "stderr": "",
+      "timespent": 0.012562
+    },
+    {
+      "displaycommand": true,
+      "playprompt": false,
+      "clearscreen": false,
+      "customprompt": null,
+      "stdin": "sudo bash -c 'echo \"nameserver 127.0.0.1\" > /etc/resolver/dokku.mose.com'",
+      "stdout": "",
+      "stderr": "",
+      "timespent": 0
+    },
+     {
+      "displaycommand": true,
+      "playprompt": false,
+      "clearscreen": false,
+      "customprompt": null,
+      "stdin": "sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.mDNSResponder.plist",
+      "stdout": "",
+      "stderr": "",
+      "timespent": 0.023706
+    },
+    {
+      "displaycommand": true,
+      "playprompt": false,
+      "clearscreen": false,
+      "customprompt": null,
+      "stdin": "sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.mDNSResponder.plist",
+      "stdout": "",
+      "stderr": "",
+      "timespent": 0.018916
+    },
+    {
+      "displaycommand": true,
+      "playprompt": true,
+      "clearscreen": false,
+      "customprompt": null,
+      "stdin": "ping -c 1 dokku.mose.com",
+      "stdout": "PING dokku.mose.com (128.199.185.101): 56 data bytes\n64 bytes from 128.199.185.101: icmp_seq=0 ttl=54 time=72.578 ms\n\n--- dokku.mose.com ping statistics ---\n1 packets transmitted, 1 packets received, 0.0% packet loss\nround-trip min/avg/max/stddev = 72.578/72.578/72.578/0.000 ms",
+      "stderr": "",
+      "timespent": 0.081006
+    },
+    {
+      "displaycommand": true,
+      "playprompt": true,
+      "clearscreen": false,
+      "customprompt": null,
+      "stdin": "ping -c 1 whatever.dokku.mose.com",
+      "stdout": "PING whatever.dokku.mose.com (128.199.185.101): 56 data bytes\n64 bytes from 128.199.185.101: icmp_seq=0 ttl=54 time=74.379 ms\n\n--- whatever.dokku.mose.com ping statistics ---\n1 packets transmitted, 1 packets received, 0.0% packet loss\nround-trip min/avg/max/stddev = 74.379/74.379/74.379/0.000 ms",
+      "stderr": "",
+      "timespent": 0.079627
+    },
+    {
+      "displaycommand": false,
+      "playprompt": false,
+      "clearscreen": true,
+      "customprompt": null,
+      "stdin": "",
+      "stdout": "Now let's install a sample node app and deploy it ...",
+      "stderr": "",
+      "timespent": 0
+    },
+    {
+      "displaycommand": true,
+      "playprompt": true,
+      "clearscreen": true,
+      "customprompt": null,
+      "stdin": "hub clone heroku/node-js-sample",
+      "stdout": "",
+      "stderr": "Cloning into 'node-js-sample'...",
+      "timespent": 3.187916
+    },
+    {
+      "displaycommand": true,
+      "playprompt": true,
+      "clearscreen": false,
+      "customprompt": null,
+      "stdin": "cd node-js-sample",
+      "stdout": "",
+      "stderr": "",
+      "timespent": 0.012037
+    },
+    {
+      "displaycommand": true,
+      "playprompt": true,
+      "clearscreen": false,
+      "customprompt": "\n\u001b[30;45m node-js-sample \u001b[35;40m\u001b[0m ",
+      "stdin": "ls -l",
+      "stdout": "total 32\n-rw-r--r--  1 mose  staff  1254 Aug 13 19:08 README.md\n-rw-r--r--  1 mose  staff   254 Aug 13 19:08 app.json\n-rw-r--r--  1 mose  staff   339 Aug 13 19:08 index.js\ndrwxr-xr-x  3 mose  staff   102 Aug 13 19:09 node_modules\n-rw-r--r--  1 mose  staff   575 Aug 13 19:08 package.json\ndrwxr-xr-x  3 mose  staff   102 Aug 13 19:08 public",
+      "stderr": "",
+      "timespent": 0.005708
+    },
+    {
+      "displaycommand": true,
+      "playprompt": true,
+      "clearscreen": false,
+      "customprompt": "\n\u001b[30;45m node-js-sample \u001b[35;40m\u001b[0m ",
+      "stdin": "pygmentize index.js",
+      "stdout": "\u001b[34mvar\u001b[39;49;00m \u001b[39;49;00mexpress\u001b[39;49;00m \u001b[39;49;00m=\u001b[39;49;00m \u001b[39;49;00mrequire\u001b[39;49;00m(\u001b[39;49;00m\u001b[33m'express'\u001b[39;49;00m)\u001b[39;49;00m\n\u001b[34mvar\u001b[39;49;00m \u001b[39;49;00mapp\u001b[39;49;00m \u001b[39;49;00m=\u001b[39;49;00m \u001b[39;49;00mexpress\u001b[39;49;00m(\u001b[39;49;00m)\u001b[39;49;00m;\u001b[39;49;00m\n\napp\u001b[39;49;00m.\u001b[39;49;00mset\u001b[39;49;00m(\u001b[39;49;00m\u001b[33m'port'\u001b[39;49;00m,\u001b[39;49;00m \u001b[39;49;00m(\u001b[39;49;00mprocess\u001b[39;49;00m.\u001b[39;49;00menv\u001b[39;49;00m.\u001b[39;49;00mPORT\u001b[39;49;00m \u001b[39;49;00m||\u001b[39;49;00m \u001b[39;49;00m\u001b[34m5000\u001b[39;49;00m)\u001b[39;49;00m)\u001b[39;49;00m\napp\u001b[39;49;00m.\u001b[39;49;00muse\u001b[39;49;00m(\u001b[39;49;00mexpress\u001b[39;49;00m.\u001b[39;49;00m\u001b[34mstatic\u001b[39;49;00m(\u001b[39;49;00m__dirname\u001b[39;49;00m \u001b[39;49;00m+\u001b[39;49;00m \u001b[39;49;00m\u001b[33m'/public'\u001b[39;49;00m)\u001b[39;49;00m)\u001b[39;49;00m\n\napp\u001b[39;49;00m.\u001b[39;49;00mget\u001b[39;49;00m(\u001b[39;49;00m\u001b[33m'/'\u001b[39;49;00m,\u001b[39;49;00m \u001b[39;49;00m\u001b[34mfunction\u001b[39;49;00m(\u001b[39;49;00mrequest\u001b[39;49;00m,\u001b[39;49;00m \u001b[39;49;00mresponse\u001b[39;49;00m)\u001b[39;49;00m \u001b[39;49;00m{\u001b[39;49;00m\n  \u001b[39;49;00mresponse\u001b[39;49;00m.\u001b[39;49;00msend\u001b[39;49;00m(\u001b[39;49;00m\u001b[33m'Hello World!'\u001b[39;49;00m)\u001b[39;49;00m\n}\u001b[39;49;00m)\u001b[39;49;00m\n\napp\u001b[39;49;00m.\u001b[39;49;00mlisten\u001b[39;49;00m(\u001b[39;49;00mapp\u001b[39;49;00m.\u001b[39;49;00mget\u001b[39;49;00m(\u001b[39;49;00m\u001b[33m'port'\u001b[39;49;00m)\u001b[39;49;00m,\u001b[39;49;00m \u001b[39;49;00m\u001b[34mfunction\u001b[39;49;00m(\u001b[39;49;00m)\u001b[39;49;00m \u001b[39;49;00m{\u001b[39;49;00m\n  \u001b[39;49;00mconsole\u001b[39;49;00m.\u001b[39;49;00mlog\u001b[39;49;00m(\u001b[39;49;00m\u001b[33m\"Node app is running at localhost:\"\u001b[39;49;00m \u001b[39;49;00m+\u001b[39;49;00m \u001b[39;49;00mapp\u001b[39;49;00m.\u001b[39;49;00mget\u001b[39;49;00m(\u001b[39;49;00m\u001b[33m'port'\u001b[39;49;00m)\u001b[39;49;00m)\u001b[39;49;00m\n}\u001b[39;49;00m)\u001b[39;49;00m",
+      "stderr": "",
+      "timespent": 0.138871
+    },
+    {
+      "displaycommand": true,
+      "playprompt": true,
+      "clearscreen": false,
+      "customprompt": "\n\u001b[30;45m node-js-sample \u001b[35;40m\u001b[0m ",
+      "stdin": "git remote add deploy dokku@dokku.mose.com:node-js-app",
+      "stdout": "",
+      "stderr": "",
+      "timespent": 0
+    },
+    {
+      "displaycommand": true,
+      "playprompt": true,
+      "clearscreen": false,
+      "customprompt": "\n\u001b[30;45m node-js-sample \u001b[35;40m\u001b[0m ",
+      "stdin": "git push deploy master",
+      "stdout": "Counting objects: 378, done.\nDelta compression using up to 8 threads.\nCompressing objects: 100% (304/304), done.\nWriting objects: 100% (378/378), 209.77 KiB | 0 bytes/s, done.\nTotal 378 (delta 45), reused 378 (delta 45)\n-----> Cleaning up ...\n-----> Building node-js-app ...\nremote: warning: You appear to have cloned an empty repository.\nremote: HEAD is now at 97a7c5c... wording\n       Node.js app detected\n-----> Requested node range:  0.10.x\n-----> Resolved node version: 0.10.30\n-----> Downloading and installing node\n-----> Writing a custom .npmrc to circumvent npm bugs\n-----> Installing dependencies\n       express@4.8.3 node_modules/express\n       ├── merge-descriptors@0.0.2\n       ├── utils-merge@1.0.0\n       ├── cookie@0.1.2\n       ├── escape-html@1.0.1\n       ├── cookie-signature@1.0.4\n       ├── finalhandler@0.1.0\n       ├── range-parser@1.0.0\n       ├── fresh@0.2.2\n       ├── vary@0.1.0\n       ├── media-typer@0.2.0\n       ├── methods@1.1.0\n       ├── parseurl@1.3.0\n       ├── serve-static@1.5.1\n       ├── buffer-crc32@0.2.3\n       ├── depd@0.4.4\n       ├── path-to-regexp@0.1.3\n       ├── qs@1.2.1\n       ├── type-is@1.3.2 (mime-types@1.0.2)\n       ├── accepts@1.0.7 (negotiator@0.4.7, mime-types@1.0.2)\n       ├── proxy-addr@1.0.1 (ipaddr.js@0.1.2)\n       ├── debug@1.0.4 (ms@0.6.2)\n       └── send@0.8.1 (mime@1.2.11, ms@0.6.2, finished@1.2.2)\n-----> Caching node_modules directory for future builds\n-----> Cleaning up node-gyp and npm artifacts\n-----> No Procfile found; Adding npm start to new Procfile\n-----> Building runtime environment\n-----> Discovering process types\n       Procfile declares types -> web\n-----> Releasing node-js-app ...\n-----> Deploying node-js-app ...\n=====> Application deployed:\n       http://node-js-app.dokku.mose.com\n\nTo dokku@dokku.mose.com:node-js-app\n * [new branch]      master -> master\n",
+      "stderr": "",
+      "timespent": 19.176
+    },
+    {
+      "displaycommand": false,
+      "playprompt": false,
+      "clearscreen": true,
+      "customprompt": null,
+      "stdin": "",
+      "stdout": "Let's go to the server see what happened ...",
+      "stderr": "",
+      "timespent": 0
+    },
+    {
+      "displaycommand": false,
+      "playprompt": false,
+      "clearscreen": true,
+      "customprompt": null,
+      "stdin": "Tools used during this presentation",
+      "stdout": "\n\n  \u001b[1;32mTools used during this presentation\u001b[0m\n  \n  \u001b[33mShellplay\u001b[0m ... record shell session\n                \u001b[4mhttps://github.com/mose/shellplay\u001b[0m\n                gem install shellplay\n      \n  \u001b[33mTugboat\u001b[0m ..... Digitalocean CLI\n                \u001b[4mhttps://github.com/pearkes/tugboat\u001b[0m\n                gem install tugboat && tugboat init\n      \n  \u001b[33mHub\u001b[0m ......... Github git wrapper\n                \u001b[4mhttps://github.com/github/hub\u001b[0m\n                gem install hub\n      \n  \u001b[33mPygmentize\u001b[0m .. code colorization\n                \u001b[4mhttp://pygments.org/docs/cmdline/\u001b[0m\n                pip install pygments\n\n",
+      "stderr": "",
+      "timespent": 0
+    },
+    {
+      "displaycommand": false,
+      "playprompt": false,
+      "clearscreen": true,
+      "customprompt": null,
+      "stdin": "About me",
+      "stdout": "\n  \u001b[1;32mAbout me\u001b[0m\n  \n  \u001b[33mFaria\u001b[0m (is hiring) ... \u001b[4mhttp://faria.co\u001b[0m\n      \u001b[35mDevtips\u001b[0m ......... \u001b[4mhttp://devtips.faria.co\u001b[0m\n              \n  \u001b[33mMose\u001b[0m  ............... \u001b[4mhttp://mose.com\u001b[0m\n     \u001b[35mtwitter\u001b[0m .......... \u001b[4m@mo5e\u001b[0m\n     \u001b[35mgithub\u001b[0m ........... \u001b[4mmose\u001b[0m\n     \u001b[35mGreen Ruby\u001b[0m ....... \u001b[4mhttp://greenruby.org\u001b[0m\n\n",
+      "stderr": "",
+      "timespent": 0
+    }
+
+  ]
+}
