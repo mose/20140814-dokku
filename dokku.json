@@ -1,5 +1,7 @@
 {
   "title": "Dokku",
+  "prompt": "\n\u001b[30;45m dokku \u001b[35;40m\u001b[0m ",
+  "timeformat": "%.1f",
   "sequence": [
     {
       "displaycommand": false,
