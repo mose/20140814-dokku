@@ -469,7 +469,7 @@
       "clearscreen": true,
       "customprompt": null,
       "stdin": "About me",
-      "stdout": "\n  \u001b[1;32mAbout me\u001b[0m\n  \n  \u001b[33mFaria\u001b[0m (is hiring) ... \u001b[4mhttp://faria.co\u001b[0m\n      \u001b[35mDevtips\u001b[0m ......... \u001b[4mhttp://devtips.faria.co\u001b[0m\n              \n  \u001b[33mMose\u001b[0m  ............... \u001b[4mhttp://mose.com\u001b[0m\n     \u001b[35mtwitter\u001b[0m .......... \u001b[4m@mo5e\u001b[0m\n     \u001b[35mgithub\u001b[0m ........... \u001b[4mmose\u001b[0m\n     \u001b[35mGreen Ruby\u001b[0m ....... \u001b[4mhttp://greenruby.org\u001b[0m\n\n     This presentation is downloadable at \n     \u001b[4mhttps://github.com/mose/20140814-dokku\u001b[0m\n",
+      "stdout": "\n  \u001b[1;32mAbout me\u001b[0m\n  \n  \u001b[33mFaria\u001b[0m (is hiring) ... \u001b[4mhttp://faria.co\u001b[0m\n     \u001b[35mDevtips\u001b[0m .......... \u001b[4mhttp://devtips.faria.co\u001b[0m\n              \n  \u001b[33mMose\u001b[0m  ............... \u001b[4mhttp://mose.com\u001b[0m\n     \u001b[35mtwitter\u001b[0m .......... \u001b[4m@mo5e\u001b[0m\n     \u001b[35mgithub\u001b[0m ........... \u001b[4mmose\u001b[0m\n     \u001b[35mGreen Ruby\u001b[0m ....... \u001b[4mhttp://greenruby.org\u001b[0m\n\n     This presentation is downloadable at \n     \u001b[4mhttps://github.com/mose/20140814-dokku\u001b[0m\n",
       "stderr": "",
       "timespent": 0
     }
