@@ -9,4 +9,4 @@
 
 ## or browse
 
-- http://mose.com/dokku-full
+- http://mose.com/20140814-dokku
