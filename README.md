@@ -6,3 +6,7 @@
 
     gem install shellplay
     shellplay https://raw.githubusercontent.com/mose/20140814-dokku/master/dokku-full.json
+
+## or browse
+
+- http://mose.com/dokku-full
